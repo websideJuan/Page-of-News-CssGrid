@@ -14,7 +14,7 @@ function App() {
 
       <NavBar/>
 
-      <div className='max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-6 lg:grid-rows-[repeat(3, minmax(0, auto))] gap-x-6 gap-y-10 px-4 lg:px-1 pb-10'>
+      <div className='max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-6 lg:grid-rows-[repeat(3, minmax(0, auto))] gap-x-6 gap-y-10 px-4 lg:px-1 pb-10 '>
         <main className='lg:col-span-4 lg:row-span-2 grid grid-cols-1 lg:grid-cols-2 lg:gap-6 lg:grid-rows-[repeat(2, minmax(0, auto))]'>
           <picture className='lg:col-span-2 lg:row-span-1'>
             <source media="(max-width:685px)" srcSet={hero_bg_movile}/>
@@ -57,7 +57,7 @@ function App() {
           <div className='flex justify-between flex-col h-full pl-5'>
             <span className='text-2xl font-bold text-gray-300'>01</span>
             <h4 className='font-bold hover:cursor-pointer hover:text-orange py-1'> Reviving Retro PCs</h4>
-            <p className='text-sm lg:pr-6 text-left'>What happens when old PCs are given modern upgrades?</p>
+            <p className='text-sm lg:pr-6 text-left text-lightWhite'>What happens when old PCs are given modern upgrades?</p>
           </div>
         </article>
 
@@ -66,7 +66,7 @@ function App() {
           <div className='flex justify-between flex-col h-full pl-5'>
             <span className='text-2xl font-bold text-gray-300'>02</span>
             <h4 className='font-bold hover:cursor-pointer hover:text-orange py-1'>Top 10 Laptops of 2022</h4>
-            <p className='text-sm lg:pr-6'>Our best picks for various needs and budgets.</p>
+            <p className='text-sm lg:pr-6 text-lightWhite'>Our best picks for various needs and budgets.</p>
           </div>
         </article>
 
@@ -75,7 +75,7 @@ function App() {
           <div className='flex justify-between flex-col h-full pl-5 '>
             <span className='text-2xl font-bold text-gray-300'>03</span>
             <h4 className='font-bold hover:cursor-pointer hover:text-orange py-1'>The Growth of Gaming</h4>
-            <p className='text-sm '>How the pandemic has sparked fresh opportunities.</p>
+            <p className='text-sm  text-lightWhite'>How the pandemic has sparked fresh opportunities.</p>
           </div>
         </article>
         

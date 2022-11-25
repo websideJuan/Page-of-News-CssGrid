@@ -14,7 +14,7 @@ export const NavBar = () => {
     
 
     return (
-        <nav className={`flex items-center justify-between  container mx-auto lg:py-20 max-w-5xl overflow-hidden py-5 px-4 ${menu && 'before:fixed before:inset-0 before:bg-[#0000008c] before:-z10'} lg:px-0 lg:before:relative`}>
+        <nav className={`flex items-center justify-between  container mx-auto lg:py-20 lg:pb-12 max-w-5xl overflow-hidden py-5 px-4 ${menu && 'before:fixed before:inset-0 before:bg-[#0000008c] before:-z10'} lg:px-0 lg:before:relative`}>
             <a href="/" className='mr-auto'>
                 <img src={Logo} alt="..." />
             </a>
