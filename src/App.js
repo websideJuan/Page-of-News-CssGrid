@@ -52,32 +52,32 @@ function App() {
         </aside>
 
         
-        <article className='flex lg:col-span-2'> 
+        <div className='flex lg:col-span-2'> 
           <img src={article_img_1} alt='' className='w-20 h-full bg-black inline-block'/> 
           <div className='flex justify-between flex-col h-full pl-5'>
             <span className='text-2xl font-bold text-gray-300'>01</span>
             <h4 className='font-bold hover:cursor-pointer hover:text-orange py-1'> Reviving Retro PCs</h4>
             <p className='text-sm lg:pr-6 text-left text-lightWhite'>What happens when old PCs are given modern upgrades?</p>
           </div>
-        </article>
+        </div>
 
-        <article className='flex lg:col-span-2 '> 
+        <div className='flex lg:col-span-2 '> 
           <img src={article_img_2} alt='' className='w-20 h-full bg-black inline-block'/> 
           <div className='flex justify-between flex-col h-full pl-5'>
             <span className='text-2xl font-bold text-gray-300'>02</span>
             <h4 className='font-bold hover:cursor-pointer hover:text-orange py-1'>Top 10 Laptops of 2022</h4>
             <p className='text-sm lg:pr-6 text-lightWhite'>Our best picks for various needs and budgets.</p>
           </div>
-        </article>
+        </div>
 
-        <article className='flex lg:col-span-2 text-justify '> 
+        <div className='flex lg:col-span-2 text-justify '> 
           <img src={article_img_3} alt='' className='w-20 h-full bg-black inline-block'/> 
           <div className='flex justify-between flex-col h-full pl-5 '>
             <span className='text-2xl font-bold text-gray-300'>03</span>
             <h4 className='font-bold hover:cursor-pointer hover:text-orange py-1'>The Growth of Gaming</h4>
             <p className='text-sm  text-lightWhite'>How the pandemic has sparked fresh opportunities.</p>
           </div>
-        </article>
+        </div>
         
       </div>
     </div>
