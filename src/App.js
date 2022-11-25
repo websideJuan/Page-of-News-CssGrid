@@ -30,16 +30,16 @@ function App() {
             <a href='/' className='px-6 font-normal text-sm bg-red hover:bg-black text-white py-3 border mt-2 inline-block tracking-[0.3em] uppercase'>  Read more</a>
           </section>
         </main>
-        <aside className='lg:col-span-2 lg:row-span-2 flex flex-col bg-lightWhite text-white px-5 py-9'>
+        <aside className='lg:col-span-2 lg:row-span-2 flex flex-col bg-lightWhite text-white px-5 py-7'>
           
           <h2 className='text-4xl font-bold pb-5 text-orange'>New</h2>
 
-          <div className='border-b pb-8 mb-5'>
+          <div className='border-b pb-5 mb-5'>
             <h3 className='text-xl font-bold  text-left py-2 hover:text-orange hover:cursor-pointer'>Hydrogen VS Electric Cars</h3>
             <p className='  leading-6 text-lightWhite'> Will hydrogen-fueled cars ever catch up to EVs?</p>
           </div>
 
-          <div className='border-b pb-8 mb-5'>
+          <div className='border-b pb-5 mb-5'>
             <h3 className='text-xl font-bold  py-2 hover:text-orange hover:cursor-pointer'>The Downsides of AI Artistry</h3>
             <p className='  leading-6 text-lightWhite'>What are the possible adverse effects of on-demand AI image generation?</p>
           </div>
